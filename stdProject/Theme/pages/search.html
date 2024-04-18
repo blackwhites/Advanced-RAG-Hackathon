@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vectara Search Widget</title>
+    <script src="https://cdn.jsdelivr.net/gh/vectara/js-widgets/lib/js-chatbot.js"></script>
+</head>
+<body>
+    <div id="vectaraChatbotElement"></div>
+    api_key: zqt_ve623_C4RxPjS-H5dE0U3x5Q0_6FfYIPGXjYGQ
+corpus_id: 3
+customer_id: 3186538207
+
+    <script>
+        window.vectara.renderChatbot({
+          wrapperId: "vectaraChatbotElement", // The ID assigned to the div you made earlier
+          customerId: "3186538207",
+          corpusIds: ["3"],
+          apiKey: " zqt_ve623_C4RxPjS-H5dE0U3x5Q0_6FfYIPGXjYGQ",
+          title: "My chatbot", // Optional title of your chatbot window
+          placeholder: "Ask a question", // Optional chatbot window input placeholder
+          inputSize: "large", // Optional string specifying the input size ('large' or 'medium')
+          emptyStateDisplay: document.getElementById("emptyState"), // Optional HTMLElement to display if the chat window is empty
+          isInitiallyOpen: true, // Optional boolean determining if the chatbot window will be open on initial render
+          zIndex: 5, // Optional number assigned to the z-index of the chatbot window
+        });
+      </script>
+</body>
+</html>

@@ -1,1 +1,1 @@
-# Advanced-RAG-Hackathon
+# RAG-Hackathon
